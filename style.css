@@ -1,23 +1,66 @@
+body{
+    margin: 0%;
+}
+main, footer{
+    padding: 0 10rem 0 10rem;
+}
 a{
     text-decoration: none;
 }
 h1, h2, h3, a{
     font-family: 'Roboto', sans-serif;
-    padding: 0 10rem 0 10rem;
+    
 }
 p{
     font-family: 'Montserrat', sans-serif;
-    padding: 0 10rem 0 10rem;
+    
 }
 header{
     background-image: url(https://github.com/s201722670/challenges/blob/main/projectImages/party.png?raw=true);
     background-size: 100% 100%;
-    /*padding: 100px 0 100px 100px;*/
+    padding: 0 0 35rem 0;
+}
+#header1, #header2{
+    color: white;   
 }
 #header1{
-    color: white;
+    font-size: 45px;
+}
+#header2{
+    font-size: 23px;
+    
 }
 ul{
     display: flex;
     list-style: none;
+
+    justify-content: space-between;
+
+    padding: 2px;
+} 
+#menu, #para1, #gallery, #para2, #header2, #order{
+    text-align: center;
+}
+
+#box1{
+    height: 80px;
+    width: 400px;
+    border: 10px solid orange;
+    padding: 20px;
+    margin: 50px;
+    background-color: orange;
+
+    -webkit-clip-path: polygon(100% 0, 75% 50%, 100% 100%, 0 100%, 25% 50%, 0 0);
+    clip-path: polygon(100% 0, 75% 50%, 100% 100%, 0 100%, 25% 50%, 0 0);
+}
+
+#box2{
+    border-radius: 30px;
+    border: 10px solid orange;
+    padding: 20px;
+    margin: 50px;
+    background-color: orange;
+
+    -webkit-clip-path: ellipse(40% 21% at 50% 50%);
+    clip-path: ellipse(40% 21% at 50% 50%);
 }
