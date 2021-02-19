@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+h1, h2, h3, a{
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10rem 0 10rem;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 10rem 0 10rem;
+}
+header{
+    background-image: url(https://github.com/s201722670/challenges/blob/main/projectImages/party.png?raw=true);
+    background-size: 100% 100%;
+    /*padding: 100px 0 100px 100px;*/
+}
+#header1{
+    color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
